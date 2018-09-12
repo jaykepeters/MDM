@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+	<dict>
+		<key>PayloadUUID</key>
+		<string>FCAA5541-1B5B-4A9B-89EF-26EDBB82AEA8</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadOrganization</key>
+		<string>JP IT Services</string>
+		<key>PayloadIdentifier</key>
+		<string>FCAA5541-1B5B-4A9B-89EF-26EDBB82AEA8</string>
+		<key>PayloadDisplayName</key>
+		<string>Disable Preference Panes</string>
+		<key>PayloadDescription</key>
+		<string>Disables the System Preferenes panes we do not want you to use</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadEnabled</key>
+		<true/>
+		<key>PayloadRemovalDisallowed</key>
+		<true/>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadUUID</key>
+				<string>1DC50F93-D360-4159-B5F5-0CBDD99D6C07</string>
+				<key>PayloadType</key>
+				<string>com.apple.systempreferences</string>
+				<key>PayloadOrganization</key>
+				<string>JP IT Services</string>
+				<key>PayloadIdentifier</key>
+				<string>1DC50F93-D360-4159-B5F5-0CBDD99D6C07</string>
+				<key>PayloadDisplayName</key>
+				<string>System Preferences</string>
+				<key>PayloadDescription</key>
+				<string/>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>PayloadEnabled</key>
+				<true/>
+				<key>DisabledPreferencePanes</key>
+				<array>
+					<string>com.apple.preferences.configurationprofiles</string>
+					<string>com.apple.preferences.sharing</string>
+					<string>com.apple.Localization</string>
+					<string>com.apple.preferences.parentalcontrols</string>
+					<string>com.apple.preference.startupdisk</string>
+					<string>com.apple.preferences.appstore</string>
+					<string>com.adobe.flashplayerpreferences</string>
+					<string>com.oracle.java.JavaControlPanel</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</plist>

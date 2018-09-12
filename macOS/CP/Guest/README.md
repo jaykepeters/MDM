@@ -1,0 +1,15 @@
+# Guest User Google Chrome Preferences
+- Features
+  - AllowDeletingBrowserHistory
+  - AutoFillEnabled
+  - AutofillAddressEnabled
+  - AutofillCreditCardEnabled
+  - BrowserAddPersonEnabled
+  - BrowserGuestModeEnabled
+  - DeveloperToolsAvailability 2
+  - DisableSafeBrowsingProceedAnyway
+  - EditBookmarksEnabled
+  - ForceEphemeralProfiles
+  - IncognitoModeAvailability 2 (forced)
+  - SyncDisabled
+  - SavingBrowserHistoryDisabled
